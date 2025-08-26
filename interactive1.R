@@ -82,13 +82,13 @@ no3_plot <- ggplot(data = cleaner,
 
 #K
 
-k_plot <- ggplot(data = cleaner, 
+k_plot_changed <- ggplot(data = cleaner, #merge conflict
        aes(x = sample_date, 
            y = k_avg)) + 
   geom_line(aes(color = sample_id)) + 
   geom_vline(xintercept = as.Date("1989-09-10"), linetype = "solid")
 
 #all together 
-k_plot/ no3_plot / mg_plot / ca_plot / nh4_plot #CREATING MERGE CONFLICT
+k_plot/ no3_plot / mg_plot / ca_plot / nh4_plot 
 
 
