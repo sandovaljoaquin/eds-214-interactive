@@ -89,6 +89,6 @@ k_plot <- ggplot(data = cleaner,
   geom_vline(xintercept = as.Date("1989-09-10"), linetype = "solid")
 
 #all together 
-k_plot/ no3_plot / mg_plot / ca_plot / nh4_plot
+k_plot/ no3_plot / mg_plot / ca_plot / nh4_plot #CREATING MERGE CONFLICT
 
 
